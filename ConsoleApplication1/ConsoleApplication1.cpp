@@ -6,7 +6,7 @@
 #include "stdafx.h"
 
 using namespace std;
-
+//thing
 class DateTime
 {
 public:
