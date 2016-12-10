@@ -4,9 +4,11 @@
 class TimeAllocation
 {
 public:
+	TimeAllocation();
 	TimeAllocation(string, string);
 	~TimeAllocation();
 	virtual string details() = 0;
+	virtual std::string output();
 
 	string getStart();
 	string getEnd();

@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "Meeting.h"
 
 
@@ -22,3 +23,9 @@ string Meeting::details() {
 		<< "End Date: " << getEnd() << "\n";
 	return oss.str();
 };
+
+std::string Meeting::output()
+{
+	std::cout << details();
+	return NULL;
+}

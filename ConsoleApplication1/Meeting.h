@@ -8,6 +8,8 @@ public:
 	Meeting(string location, string attendees, string, string);
 	~Meeting();
 	string details();
+	std::string output();
+
 private:
 	string location;
 	string attendees;

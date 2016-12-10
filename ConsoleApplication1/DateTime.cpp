@@ -1,4 +1,6 @@
+#pragma once
 #include "DateTime.h"
+#include "stdafx.h"
 
 
 DateTime::DateTime()
